@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5B02891-8A33-598F-146F-BEC66ED73971" name="IMPLANTACAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:19:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Refere-se aos projetos desenvolvidos ou que estão em desenvolvimento, bem como os funcionários que estão desempenhando tarefas nestes projetos e em qual período. Precisamos de um código para a implantação numérico, o projeto e o funcionário que participa deste projeto e o período (entrada/saída) em que o funcionário atuou no projeto.
+
+		
+		
+		
+		]]></commentInRDBMS>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="9EB74528-BA36-945B-4BCB-9EBCE0815CF3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:19:56 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="ACE54E87-62C8-BCF8-E269-079A6EB732F2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:20:16 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="E8E3CB1C-5104-BB53-57E9-602F98C8B12F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:20:33 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FB0C55B-3292-1C24-20E2-1EE324FEDC5B" name="IMPLANTACAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:20:08 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EB74528-BA36-945B-4BCB-9EBCE0815CF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

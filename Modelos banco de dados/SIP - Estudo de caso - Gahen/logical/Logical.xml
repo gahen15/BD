@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AABB8418-3194-96E1-5044-A7A80BDB750B" mainViewID="E777DE4A-E4EC-A757-8FCE-A76FBC979ACA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 19:46:33 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
