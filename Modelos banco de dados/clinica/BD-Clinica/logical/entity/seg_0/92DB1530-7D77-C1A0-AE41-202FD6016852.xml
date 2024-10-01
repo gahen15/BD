@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92DB1530-7D77-C1A0-AE41-202FD6016852" name="PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:47:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[São pessoas procuram a clinica com alguma queixa. Nesse momento precisamos do nome completo, CPF, data de nascimento, endereço completo, telefone de contato, numero da carteira de convênio se ele possuir.
+
+		
+		
+		
+		
+		
+		
+		]]></commentInRDBMS>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_convenio" id="7DDE1FDE-3F35-84B4-18FB-39AF85B2CD56">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:50:03 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="BEF7B5E5-EB74-6604-E073-93CE400AF6FC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:47:48 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="5F240770-0E49-D519-D13A-D68322C1AC6E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:48:08 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento_paciente" id="E012B4C1-8ECA-B8A2-93EA-84294CE0A677">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:48:42 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco_paciente" id="5F81C645-2CDC-1F32-9522-E5193907C0A0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:48:54 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone_paciente" id="8A346551-ACE7-84F4-013E-C582B6BEF8B1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:49:47 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero_paciente" id="39C90EE4-5CA3-AC57-9350-C46765290051">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:50:38 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0B40A3B-2313-2980-7C23-7E49EC6A9B5E" name="PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 17:50:19 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DDE1FDE-3F35-84B4-18FB-39AF85B2CD56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
