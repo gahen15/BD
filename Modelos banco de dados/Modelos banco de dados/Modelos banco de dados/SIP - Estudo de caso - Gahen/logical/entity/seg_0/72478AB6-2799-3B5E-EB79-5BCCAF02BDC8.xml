@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72478AB6-2799-3B5E-EB79-5BCCAF02BDC8" name="DEPENDENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:09:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[São pessoas que possuem um grau de parentesco com o funcionário, por exemplo: filhos, esposa ou marido. Neste primeiro momento precisamos do nome e data de nascimento de cada dependente do funcionário.
+]]></commentInRDBMS>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="DE69245D-A870-342E-6717-D3500D3E4515">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:22:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código do dependente]]></commentInRDBMS>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="D85D006D-1B54-F1EB-D558-639928F696FE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:14:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do dependente]]></commentInRDBMS>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento_dependente" id="5E1E8951-5844-E754-EC5C-16B2DD1BB53A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:14:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de nascimento do dependente]]></commentInRDBMS>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_grau_parentesco" id="B9A695ED-A2E6-DE24-9010-C51FE2AB9C4D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:15:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Grau de parentesco do dependente]]></commentInRDBMS>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" directorySegmentName="seg_0" id="3476AC1E-6B25-0DA8-1D62-B585A4AFF861">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 19:54:37 UTC</createdTime>
+<generatorID>5A4DC316-9A39-E723-C54B-88EC22D5B1BA</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<referedAttribute>5BF5EB4B-B77E-0E1C-CCD5-CC72EFF9F49E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CDFBEFB-5188-7BE5-0F36-00BFA45550BA" name="DEPENDENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:22:59 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DE69245D-A870-342E-6717-D3500D3E4515</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

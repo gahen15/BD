@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROJETO_IMPLANTACAO" directorySegmentName="seg_0" id="AA8F3F92-3F54-66DB-D72C-B7ED8EAD926D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 19:56:44 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<sourcePk>5ABB3035-D30E-002B-0827-393A767D37E0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>43219622-CC3A-1CED-19BB-B261E4DF135C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5B02891-8A33-598F-146F-BEC66ED73971</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
