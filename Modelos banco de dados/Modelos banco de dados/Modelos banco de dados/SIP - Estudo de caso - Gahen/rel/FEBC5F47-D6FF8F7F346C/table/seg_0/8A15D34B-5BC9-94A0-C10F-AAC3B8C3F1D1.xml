@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A15D34B-5BC9-94A0-C10F-AAC3B8C3F1D1" name="PROJETO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Somos uma empresa que desenvolvemos soluções de TI. Desenvolvemos projetos para todas as áreas da TI. Precisamos do código do projeto numérico, nome ou título do projeto, a data em que o projeto foi iniciado e a data em que o projeto foi finalizado.		
+		
+		
+		]]></commentInRDBMS>
+<generatorID>43219622-CC3A-1CED-19BB-B261E4DF135C</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="8D941416-8F51-5952-ECD5-83CC02682D26">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código do projeto]]></commentInRDBMS>
+<generatorID>C4987614-F8B7-FB67-EDE1-60E216382CEF</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="4D6652F3-CCDE-1BBC-E0E3-2CAA14DFE0AC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do projeto]]></commentInRDBMS>
+<generatorID>41EFD710-70C9-4665-6F0A-AD131017BB4E</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="F60A0617-B728-1FA1-1A6E-3743D4235D76">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de início do projeto]]></commentInRDBMS>
+<generatorID>1E680DF3-BDCC-AA5F-D580-9AAAC494F531</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="8F8862E1-5CFB-A3E8-F492-5D4CF25F4168">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de término do projeto]]></commentInRDBMS>
+<generatorID>268E9EAD-A8F1-36E6-9C62-0DC4D0C82167</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B61CEB8C-FD25-F479-E497-D259BE3788F1" name="PROJETO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<generatorID>5ABB3035-D30E-002B-0827-393A767D37E0</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D941416-8F51-5952-ECD5-83CC02682D26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

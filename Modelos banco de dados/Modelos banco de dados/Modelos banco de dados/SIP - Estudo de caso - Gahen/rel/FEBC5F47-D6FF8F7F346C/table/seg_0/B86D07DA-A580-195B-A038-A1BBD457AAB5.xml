@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B86D07DA-A580-195B-A038-A1BBD457AAB5" name="T_DEPARTAMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[São divisões de uma empresa, onde cada divisão tem um propósito. Precisamos do código numérico, nome do departamento e uma sigla com três letras para facilitar a identificação do departamento em relatórios.
+]]></commentInRDBMS>
+<generatorID>7CF473A1-72E5-B13A-5150-D5ACC6EBAEDA</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_departamento" id="C4CE51A3-9327-F937-7CD9-5B56BC8A2D29">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código do departamento]]></commentInRDBMS>
+<generatorID>20B9A578-A946-3C0C-8B99-F18F33789674</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_departamento" id="F8028D38-DDB3-155A-F661-DCF97CDFAF6F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do departamento]]></commentInRDBMS>
+<generatorID>D07A7C81-5DA3-99BF-82C3-DFD69A8C5ADA</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_departamento" id="F117A4A4-C3BF-CAD2-131B-8DF063E8582E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sigla do departamento]]></commentInRDBMS>
+<generatorID>AF35C9E4-E93F-7B10-6E82-1BEEB9A6DB2B</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FD16520-1570-403B-5A22-FBDAF2452D82" name="T_DEPARTAMENTO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<generatorID>2554DDD6-4B57-7451-61EC-72F5AEB62217</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4CE51A3-9327-F937-7CD9-5B56BC8A2D29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

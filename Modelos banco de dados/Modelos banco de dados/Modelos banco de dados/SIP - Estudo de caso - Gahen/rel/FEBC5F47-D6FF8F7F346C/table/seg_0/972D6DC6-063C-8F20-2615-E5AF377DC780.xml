@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="972D6DC6-063C-8F20-2615-E5AF377DC780" name="IMPLANTACAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Refere-se aos projetos desenvolvidos ou que estão em desenvolvimento, bem como os funcionários que estão desempenhando tarefas nestes projetos e em qual período. Precisamos de um código para a implantação numérico, o projeto e o funcionário que participa deste projeto e o período (entrada/saída) em que o funcionário atuou no projeto.
+
+		
+		
+		
+		]]></commentInRDBMS>
+<generatorID>B5B02891-8A33-598F-146F-BEC66ED73971</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_implantacao" id="E4AFB6A7-AF64-BE1D-291C-BED0DFB2FBF5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código de implantação do funcionário]]></commentInRDBMS>
+<generatorID>9EB74528-BA36-945B-4BCB-9EBCE0815CF3</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_matricula" id="79C1B315-C480-3ACF-E0B1-81A2DC88B3B4">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<generatorID>1B156FEF-10D0-BA85-5D1E-1FDDEDAC4A03</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9192EF2C-71C7-7880-F902-7EC69EFBF5B3" referredColumn="19B20D3D-7DA5-E888-408C-007844271BB1"/>
+</associations>
+</Column>
+<Column name="cd_projeto" id="87ABE563-A8BE-A913-B477-227716879698">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<generatorID>887FB48A-B997-2FF6-5852-8C9EA47C1955</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95038110-5B14-F385-EA24-BC41AC478F05" referredColumn="8D941416-8F51-5952-ECD5-83CC02682D26"/>
+</associations>
+</Column>
+<Column name="dt_entrada" id="9DBAA69D-E031-F067-EB57-36A889C86738">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de entrada do funcionário]]></commentInRDBMS>
+<generatorID>ACE54E87-62C8-BCF8-E269-079A6EB732F2</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="4D214520-34F9-5CFD-8449-BAE75C18B2E3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de saída do Funcionário]]></commentInRDBMS>
+<generatorID>E8E3CB1C-5104-BB53-57E9-602F98C8B12F</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ED0C4C9-2943-3D5D-9466-83CE9EBE6D4C" name="IMPLANTACAO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<generatorID>5FB0C55B-3292-1C24-20E2-1EE324FEDC5B</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4AFB6A7-AF64-BE1D-291C-BED0DFB2FBF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC87C26E-28A9-7EE1-4DDD-D0E59722D4BE" name="IMPLANTACAO_T_FUNCIONARIO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<generatorID>D7BB1C7E-AAFE-CC9B-3AB7-9478A29A3300</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C1B315-C480-3ACF-E0B1-81A2DC88B3B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3023C6D-CF2E-AD6A-BDBE-06E41EF24A99" name="IMPLANTACAO_PROJETO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 20:32:34 UTC</createdTime>
+<generatorID>AA8F3F92-3F54-66DB-D72C-B7ED8EAD926D</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87ABE563-A8BE-A913-B477-227716879698"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
