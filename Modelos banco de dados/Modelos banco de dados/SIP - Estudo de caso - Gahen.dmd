@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIP - Estudo de caso - Gahen" id="A5314BC9-8A1C-9BD9-647F-DF2470C3101D" version="3.5">
-<createdBy>labsfiap</createdBy>
-<createdTime>2024-09-26 19:46:33 UTC</createdTime>
-<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>A5314BC9-8A1C-9BD9-647F-DF2470C3101D</designId>
-</OSDM_Design>

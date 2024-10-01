@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="7DDE0A25-BDD8-D0FC-74FA-9A28F5A2CD59">
-<createdBy>labsfiap</createdBy>
-<createdTime>2024-09-26 19:46:33 UTC</createdTime>
-<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
