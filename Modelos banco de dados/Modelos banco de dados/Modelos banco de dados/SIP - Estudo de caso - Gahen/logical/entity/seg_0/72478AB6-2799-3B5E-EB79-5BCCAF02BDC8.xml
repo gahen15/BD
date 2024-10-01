@@ -31,6 +31,21 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nr_matricula" directorySegmentName="seg_0" id="3476AC1E-6B25-0DA8-1D62-B585A4AFF861">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 19:54:37 UTC</createdTime>
+<generatorID>5A4DC316-9A39-E723-C54B-88EC22D5B1BA</generatorID>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<referedAttribute>5BF5EB4B-B77E-0E1C-CCD5-CC72EFF9F49E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nm_dependente" id="D85D006D-1B54-F1EB-D558-639928F696FE">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-09-26 20:14:32 UTC</createdTime>
@@ -71,21 +86,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_matricula" directorySegmentName="seg_0" id="3476AC1E-6B25-0DA8-1D62-B585A4AFF861">
-<createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 19:54:37 UTC</createdTime>
-<generatorID>5A4DC316-9A39-E723-C54B-88EC22D5B1BA</generatorID>
-<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
-<engineerTo>
-<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
-</engineerTo>
-<referedAttribute>5BF5EB4B-B77E-0E1C-CCD5-CC72EFF9F49E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
