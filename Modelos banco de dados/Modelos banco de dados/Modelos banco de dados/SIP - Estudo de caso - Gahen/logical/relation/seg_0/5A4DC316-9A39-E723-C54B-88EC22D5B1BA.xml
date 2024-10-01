@@ -7,7 +7,7 @@
 <item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
 </engineerTo>
 <sourcePk>1420F429-747A-CBB1-772C-69E245A2F74B</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

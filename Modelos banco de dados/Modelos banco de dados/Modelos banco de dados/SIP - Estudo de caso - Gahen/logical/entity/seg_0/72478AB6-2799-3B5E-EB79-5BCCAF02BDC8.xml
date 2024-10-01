@@ -17,20 +17,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_dependente" id="DE69245D-A870-342E-6717-D3500D3E4515">
-<createdBy>labsfiap</createdBy>
-<createdTime>2024-09-26 20:22:36 UTC</createdTime>
-<commentInRDBMS><![CDATA[Código do dependente]]></commentInRDBMS>
-<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
-<engineerTo>
-<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="nr_matricula" directorySegmentName="seg_0" id="3476AC1E-6B25-0DA8-1D62-B585A4AFF861">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 19:54:37 UTC</createdTime>
@@ -45,6 +31,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_dependente" id="DE69245D-A870-342E-6717-D3500D3E4515">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-26 20:22:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código do dependente]]></commentInRDBMS>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<engineerTo>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_dependente" id="D85D006D-1B54-F1EB-D558-639928F696FE">
 <createdBy>labsfiap</createdBy>
@@ -99,6 +99,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DE69245D-A870-342E-6717-D3500D3E4515</attributeRef>
+<attributeRef>3476AC1E-6B25-0DA8-1D62-B585A4AFF861</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

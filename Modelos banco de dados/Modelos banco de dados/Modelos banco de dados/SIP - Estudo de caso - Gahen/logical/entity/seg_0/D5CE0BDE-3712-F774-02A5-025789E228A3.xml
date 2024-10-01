@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nm_funcionario" id="9D6CBB03-E981-F951-D617-B290D891351C">
 <createdBy>labsfiap</createdBy>
