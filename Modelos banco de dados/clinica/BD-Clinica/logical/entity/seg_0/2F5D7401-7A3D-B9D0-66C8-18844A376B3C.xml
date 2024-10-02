@@ -53,6 +53,36 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nr_cpf" id="4824CEF4-37B6-4C73-A88B-3204F562372F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 19:28:49 UTC</createdTime>
+<generatorID>D1DD22E7-4250-4F9D-D6A8-F9EE8DCD0292</generatorID>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<referedAttribute>5F240770-0E49-D519-D13A-D68322C1AC6E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_crm" id="2B9455FA-F51C-1516-8FF3-B3C0C91EFA91">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 19:29:01 UTC</createdTime>
+<generatorID>DDDDF12A-187A-7834-EABE-F377DF5971E4</generatorID>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<referedAttribute>71EB9CFD-184C-3F42-8B96-0D1296DA5DCF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F0829105-D26B-B0C0-457E-F7DA8CF757B7" name="CONSULTA PK">

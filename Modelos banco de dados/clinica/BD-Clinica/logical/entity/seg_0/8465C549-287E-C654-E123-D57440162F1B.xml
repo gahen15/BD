@@ -88,6 +88,21 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_especialidade" id="64781453-AC57-8659-C494-A73ECF2FACA2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 19:30:45 UTC</createdTime>
+<generatorID>0B0F44B6-F11C-3658-01D3-4EFF44B39222</generatorID>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<referedAttribute>924C4656-65DC-A813-B5B2-591594F924E8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E3ADB47D-2192-8990-A83D-F67917C9BF1D" name="MÉDICO PK">
