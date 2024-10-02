@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="972D6DC6-063C-8F20-2615-E5AF377DC780" name="IMPLANTACAO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="972D6DC6-063C-8F20-2615-E5AF377DC780" name="T_IMPLANTACAO">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <commentInRDBMS><![CDATA[Refere-se aos projetos desenvolvidos ou que estão em desenvolvimento, bem como os funcionários que estão desempenhando tarefas nestes projetos e em qual período. Precisamos de um código para a implantação numérico, o projeto e o funcionário que participa deste projeto e o período (entrada/saída) em que o funcionário atuou no projeto.
@@ -27,7 +27,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nr_matricula" id="79C1B315-C480-3ACF-E0B1-81A2DC88B3B4">
+<Column name="T_FUNCIONARIO_nr_matricula" id="79C1B315-C480-3ACF-E0B1-81A2DC88B3B4">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <generatorID>1B156FEF-10D0-BA85-5D1E-1FDDEDAC4A03</generatorID>
@@ -36,14 +36,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9192EF2C-71C7-7880-F902-7EC69EFBF5B3" referredColumn="19B20D3D-7DA5-E888-408C-007844271BB1"/>
 </associations>
 </Column>
-<Column name="cd_projeto" id="87ABE563-A8BE-A913-B477-227716879698">
+<Column name="PROJETO_cd_projeto" id="87ABE563-A8BE-A913-B477-227716879698">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <generatorID>887FB48A-B997-2FF6-5852-8C9EA47C1955</generatorID>
@@ -52,7 +52,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>

@@ -22,7 +22,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cd_departamento" id="FD6860D8-A2E9-EF7E-B9AC-32CC32B4A75E">
+<Column name="T_DEPARTAMENTO_cd_departamento" id="FD6860D8-A2E9-EF7E-B9AC-32CC32B4A75E">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <generatorID>A551C049-8F6E-D605-B4FD-0F396D090846</generatorID>
@@ -31,7 +31,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -115,7 +115,7 @@
 <colUsage columnID="19B20D3D-7DA5-E888-408C-007844271BB1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="913C0D8A-E93D-4C0C-67A2-FDB4F596B905" name="T_FUNCIONARIO_T_DEPTO_FK">
+<ind_PK_UK id="913C0D8A-E93D-4C0C-67A2-FDB4F596B905" name="T_FUNCIONARIO_T_DEPARTAMENTO_FK">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <generatorID>2CDFB3B8-45DA-137A-4135-3D271F9EBEF4</generatorID>

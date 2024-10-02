@@ -65,8 +65,9 @@
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-09-26 20:00:12 UTC</createdTime>
 <ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

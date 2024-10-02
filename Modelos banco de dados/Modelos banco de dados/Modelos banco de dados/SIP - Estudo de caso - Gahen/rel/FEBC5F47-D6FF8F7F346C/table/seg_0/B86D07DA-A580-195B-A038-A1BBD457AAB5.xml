@@ -63,5 +63,15 @@
 <colUsage columnID="C4CE51A3-9327-F937-7CD9-5B56BC8A2D29"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="13708216-74EE-2D4C-6D7B-C363D29413D2" name="T_DEPARTAMENTO__UN">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 18:03:46 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8028D38-DDB3-155A-F661-DCF97CDFAF6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

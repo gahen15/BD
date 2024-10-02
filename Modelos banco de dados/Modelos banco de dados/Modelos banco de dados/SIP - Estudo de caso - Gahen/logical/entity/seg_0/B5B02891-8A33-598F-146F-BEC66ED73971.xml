@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5B02891-8A33-598F-146F-BEC66ED73971" name="IMPLANTACAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5B02891-8A33-598F-146F-BEC66ED73971" name="T_IMPLANTACAO">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-09-26 20:19:32 UTC</createdTime>
 <commentInRDBMS><![CDATA[Refere-se aos projetos desenvolvidos ou que estão em desenvolvimento, bem como os funcionários que estão desempenhando tarefas nestes projetos e em qual período. Precisamos de um código para a implantação numérico, o projeto e o funcionário que participa deste projeto e o período (entrada/saída) em que o funcionário atuou no projeto.
@@ -48,7 +48,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_projeto" directorySegmentName="seg_0" id="887FB48A-B997-2FF6-5852-8C9EA47C1955">
 <createdBy>labsfiap</createdBy>
@@ -63,7 +63,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_entrada" id="ACE54E87-62C8-BCF8-E269-079A6EB732F2">
 <createdBy>labsfiap</createdBy>
@@ -98,8 +98,9 @@
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-09-26 20:20:08 UTC</createdTime>
 <ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="true"/>
+<item key="FEBC5F47-6961-4116-DE2C-D6FF8F7F346C" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

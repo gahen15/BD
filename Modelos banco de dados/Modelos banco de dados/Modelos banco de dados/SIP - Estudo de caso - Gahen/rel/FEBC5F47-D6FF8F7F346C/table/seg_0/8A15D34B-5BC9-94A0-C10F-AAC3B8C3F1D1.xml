@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A15D34B-5BC9-94A0-C10F-AAC3B8C3F1D1" name="PROJETO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A15D34B-5BC9-94A0-C10F-AAC3B8C3F1D1" name="T_PROJETO">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <commentInRDBMS><![CDATA[Somos uma empresa que desenvolvemos soluções de TI. Desenvolvemos projetos para todas as áreas da TI. Precisamos do código do projeto numérico, nome ou título do projeto, a data em que o projeto foi iniciado e a data em que o projeto foi finalizado.		
@@ -77,4 +77,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="T_PROJETO_CK_1" directorySegmentName="seg_0" id="45FA35A1-B88E-30D3-8D52-4A096DB843A2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 18:00:16 UTC</createdTime>
+<ownerDesignName>SIP - Estudo de caso - Gahen</ownerDesignName>
+<rule><![CDATA[dt_termino >= dt_inicio]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

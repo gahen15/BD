@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E20EDE4-1ADC-6C03-1EDD-50E46AFC9373" name="DEPENDENTE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E20EDE4-1ADC-6C03-1EDD-50E46AFC9373" name="T_DEPENDENTE">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <commentInRDBMS><![CDATA[São pessoas que possuem um grau de parentesco com o funcionário, por exemplo: filhos, esposa ou marido. Neste primeiro momento precisamos do nome e data de nascimento de cada dependente do funcionário.
@@ -10,7 +10,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="nr_matricula" id="E58C6720-CD30-6A6E-D076-7EDCBF6D33A6">
+<Column name="T_FUNCIONARIO_nr_matricula" id="E58C6720-CD30-6A6E-D076-7EDCBF6D33A6">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-01 20:32:34 UTC</createdTime>
 <generatorID>3476AC1E-6B25-0DA8-1D62-B585A4AFF861</generatorID>
@@ -19,7 +19,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
