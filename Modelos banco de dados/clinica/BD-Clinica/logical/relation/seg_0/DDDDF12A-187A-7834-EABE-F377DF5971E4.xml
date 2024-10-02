@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="DDDDF12A-187A-7834-EABE-F377DF5971E4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MEDICO_CONSULTA" directorySegmentName="seg_0" id="DDDDF12A-187A-7834-EABE-F377DF5971E4">
 <createdBy>labsfiap</createdBy>
 <createdTime>2024-10-02 19:29:01 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
@@ -7,7 +7,7 @@
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
 </engineerTo>
 <sourcePk>E3ADB47D-2192-8990-A83D-F67917C9BF1D</sourcePk>
-<identifying>false</identifying>
+<identifying>true</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

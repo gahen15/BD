@@ -1,8 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8465C549-287E-C654-E123-D57440162F1B" name="MÉDICO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66437BFD-61BE-2077-50D4-2CB006C6BCD0" name="PACIENTEv1">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 17:37:59 UTC</createdTime>
-<commentInRDBMS><![CDATA[São profissionais formados da área de sáude que atendem os pacientes. Precisamos do CRM do médico, nome, endereço, telefone,especialidade, valor de salario.
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[São pessoas procuram a clinica com alguma queixa. Nesse momento precisamos do nome completo, CPF, data de nascimento, endereço completo, telefone de contato, numero da carteira de convênio se ele possuir.
+
+		
 		
 		
 		
@@ -22,25 +24,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_especialidade" id="64781453-AC57-8659-C494-A73ECF2FACA2">
+<Attribute name="nr_cpf" id="E0628539-B566-1892-393E-8A80C8BCC95C">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-02 19:30:45 UTC</createdTime>
-<generatorID>0B0F44B6-F11C-3658-01D3-4EFF44B39222</generatorID>
-<ownerDesignName>BD-Clinica</ownerDesignName>
-<engineerTo>
-<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>924C4656-65DC-A813-B5B2-591594F924E8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cd_crm" id="71EB9CFD-184C-3F42-8B96-0D1296DA5DCF">
-<createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 17:38:19 UTC</createdTime>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
 <engineerTo>
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
@@ -48,12 +34,26 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>12</dataTypePrecision>
-<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_medico" id="9932171B-5324-E95E-8209-A091282F979E">
+<Attribute name="cd_convenio" id="92A0FC95-8DBB-47EC-1AA7-2D19B53F2D53">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 17:41:56 UTC</createdTime>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="D2EB951F-B69B-D8F2-8CA8-E3B72A99D28C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
 <engineerTo>
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
@@ -64,9 +64,21 @@
 <dataTypeSize>60</dataTypeSize>
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_endereco" id="66986C51-AD36-B533-47B2-F20858750D0E">
+<Attribute name="dt_nascimento_paciente" id="F5020BA7-5730-08CD-A383-07CF753B4C11">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 17:42:19 UTC</createdTime>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
+<ownerDesignName>BD-Clinica</ownerDesignName>
+<engineerTo>
+<item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco_paciente" id="4DA3D3C2-56B9-52A9-9226-56C7375A6A25">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
 <engineerTo>
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
@@ -77,9 +89,9 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_telefone_medico" id="86FBE171-8DC2-DC33-BB07-67D66B6E11E9">
+<Attribute name="nr_telefone_paciente" id="5440D849-FC47-E8B5-CDA4-8E9D3CAD528E">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 17:42:46 UTC</createdTime>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
 <engineerTo>
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
@@ -90,32 +102,31 @@
 <dataTypePrecision>13</dataTypePrecision>
 <ownDataTypeParameters>,13,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="vl_salario" id="1239C14C-0F0A-0A06-E8F7-3420E4954B5F">
+<Attribute name="ds_genero_paciente" id="A1611789-25A3-D112-BC5F-BF25D0AE78D8">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 17:43:40 UTC</createdTime>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
 <engineerTo>
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E3ADB47D-2192-8990-A83D-F67917C9BF1D" name="MÉDICO PK">
+<identifier id="3BAC1222-7BEA-B705-AD48-BDCDB50D19A3" name="PACIENTE PK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-01 17:41:09 UTC</createdTime>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
 <engineerTo>
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>71EB9CFD-184C-3F42-8B96-0D1296DA5DCF</attributeRef>
+<attributeRef>E0628539-B566-1892-393E-8A80C8BCC95C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

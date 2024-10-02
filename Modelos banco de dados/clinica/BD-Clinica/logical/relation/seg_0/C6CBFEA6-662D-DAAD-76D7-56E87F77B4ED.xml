@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PACIENTE_ALERGIA" directorySegmentName="seg_0" id="39C25B35-9546-EAF6-CDD1-917716F1C027">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PACIENTE_ALERGIAv1" directorySegmentName="seg_0" id="C6CBFEA6-662D-DAAD-76D7-56E87F77B4ED">
 <createdBy>labsfiap</createdBy>
-<createdTime>2024-10-02 19:34:15 UTC</createdTime>
+<createdTime>2024-10-02 19:43:41 UTC</createdTime>
 <ownerDesignName>BD-Clinica</ownerDesignName>
 <engineerTo>
 <item key="8618EC68-7CD9-7C87-A8D1-D222FFD4CD5C" value="true"/>
@@ -10,9 +10,9 @@
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
-<sourceEntity>92DB1530-7D77-C1A0-AE41-202FD6016852</sourceEntity>
+<sourceEntity>66437BFD-61BE-2077-50D4-2CB006C6BCD0</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>92400984-0D5D-C29B-63F6-E8F4EA64B2EF</targetEntity>
+<targetEntity>553DCC31-F2E0-FC51-838E-D2B9272B6D7A</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
