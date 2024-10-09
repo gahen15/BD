@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35547C87-AEC4-E58D-DFAA-3935C3B43A40" name="T_CLI_ESPECIALIDADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Especialidade: É o curso que profissionaliza o médico em uma determinada área. Precisamos no código da especialidade, do nome da especialidade.
+
+]]></commentInRDBMS>
+<generatorID>A5C61AA7-78E4-ECCA-3642-93B2704131EE</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_especialidade" id="891120B1-B8C9-DB6A-ECB8-BAC86E7CDF4F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da especialidade]]></commentInRDBMS>
+<generatorID>CE2C69EA-55E2-B932-0986-CC9FB07CFD2D</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_especialidade" id="227F7226-2333-5088-3E17-6D7DC3AA3AD1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da especialidade]]></commentInRDBMS>
+<generatorID>458D547B-7FD4-7B21-0E8B-6C026CC36626</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADAECC10-230C-9F41-BAEA-2174AAE32A3D" name="T_CLI_ESPECIALIDADE_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>51FCCB1C-1E4F-C7CE-CE36-C5A1ADDF0408</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="891120B1-B8C9-DB6A-ECB8-BAC86E7CDF4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

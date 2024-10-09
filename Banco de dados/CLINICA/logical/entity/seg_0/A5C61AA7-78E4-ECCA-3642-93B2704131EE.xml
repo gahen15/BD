@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5C61AA7-78E4-ECCA-3642-93B2704131EE" name="T_CLI_ESPECIALIDADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 18:03:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Especialidade: É o curso que profissionaliza o médico em uma determinada área. Precisamos no código da especialidade, do nome da especialidade.
+
+]]></commentInRDBMS>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_especialidade" id="CE2C69EA-55E2-B932-0986-CC9FB07CFD2D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 18:03:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo da especialidade]]></commentInRDBMS>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_especialidade" id="458D547B-7FD4-7B21-0E8B-6C026CC36626">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 18:03:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da especialidade]]></commentInRDBMS>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51FCCB1C-1E4F-C7CE-CE36-C5A1ADDF0408" name="T_CLI_ESPECIALIDADE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-01 18:03:37 UTC</createdTime>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE2C69EA-55E2-B932-0986-CC9FB07CFD2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

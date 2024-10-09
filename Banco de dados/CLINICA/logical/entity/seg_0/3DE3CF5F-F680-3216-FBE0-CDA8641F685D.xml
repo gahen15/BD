@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DE3CF5F-F680-3216-FBE0-CDA8641F685D" name="T_PACIENTE_ALERGIA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:04:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[É a relacao entre paciente e alergia
+Um paciente pode ter 0 ou muitas alergias. 
+Uma alergia pode estar associada a 0 ou muitos pacientes]]></commentInRDBMS>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_CPF_paciente" id="1EA32FB1-1818-D57B-9897-8F7DE50E14E7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:06:25 UTC</createdTime>
+<generatorID>A7BDC891-B72C-C4A0-165B-D2840695956C</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<referedAttribute>D66E1FF2-1464-DB27-C4D7-44568BAC48D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_alergia" id="95EDEAEF-47A4-2ECD-ACA6-448D42060D42">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:08:32 UTC</createdTime>
+<generatorID>4E53752A-0F11-2EBE-A200-F85AC926AA28</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<referedAttribute>116066E1-7CE8-BF22-2A0D-E4895E2440C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7619838A-83A4-FC8D-B208-50F9DA75FE6B" name="T_PACIENTE_ALERGIA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:06:25 UTC</createdTime>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1EA32FB1-1818-D57B-9897-8F7DE50E14E7</attributeRef>
+<attributeRef>95EDEAEF-47A4-2ECD-ACA6-448D42060D42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88DC6BD8-5837-F783-2E3F-E8951392FFBA" containerWithKeyObject="38825861-11E0-CFF5-D79C-F744AD9DAA57" localFKIndex="D975FB9A-426E-857C-6B13-B05AF1AEECEA" name="FK_PAC_PAC_ALERGIA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>A7BDC891-B72C-C4A0-165B-D2840695956C</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<referredTableLongName>T_CLI_PACIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA0366EF-61F1-63C6-664A-C73409A30E67</referredTableID>
+<keyObject>5C0AC404-C54E-ABC5-CEF5-7E08499B4427</keyObject>
+<referredKeyID>5C0AC404-C54E-ABC5-CEF5-7E08499B4427</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_CPF_paciente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

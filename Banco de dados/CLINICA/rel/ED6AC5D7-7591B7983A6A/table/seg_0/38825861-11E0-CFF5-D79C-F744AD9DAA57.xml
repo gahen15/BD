@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38825861-11E0-CFF5-D79C-F744AD9DAA57" name="T_PACIENTE_ALERGIA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[É a relacao entre paciente e alergia
+Um paciente pode ter 0 ou muitas alergias. 
+Uma alergia pode estar associada a 0 ou muitos pacientes]]></commentInRDBMS>
+<generatorID>3DE3CF5F-F680-3216-FBE0-CDA8641F685D</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_CPF_paciente" id="F5A35E21-E74C-0419-7C50-27ED551490A0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>1EA32FB1-1818-D57B-9897-8F7DE50E14E7</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88DC6BD8-5837-F783-2E3F-E8951392FFBA" referredColumn="40E32ACB-4CEE-0ADF-03D6-4E740542A8F8"/>
+</associations>
+</Column>
+<Column name="id_alergia" id="ED97D50B-5F83-628E-D412-29E2C6D49B14">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>95EDEAEF-47A4-2ECD-ACA6-448D42060D42</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="362ADE9C-F2EB-6211-5BA4-F4AB37CA26CA" referredColumn="EBD02ACC-03C1-DBEF-AE5D-C1CC92ED3EBA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4567A8A9-05BE-6A96-948C-D1215730990B" name="T_PACIENTE_ALERGIA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>7619838A-83A4-FC8D-B208-50F9DA75FE6B</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A35E21-E74C-0419-7C50-27ED551490A0"/>
+<colUsage columnID="ED97D50B-5F83-628E-D412-29E2C6D49B14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E55F8AA-388B-2DF4-A040-ED4AC18D2BA7" name="FK_ALERGIA_PAC_ALERGIA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>4E53752A-0F11-2EBE-A200-F85AC926AA28</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED97D50B-5F83-628E-D412-29E2C6D49B14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D975FB9A-426E-857C-6B13-B05AF1AEECEA" name="FK_PAC_PAC_ALERGIA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>A7BDC891-B72C-C4A0-165B-D2840695956C</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5A35E21-E74C-0419-7C50-27ED551490A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

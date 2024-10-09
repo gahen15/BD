@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9506801D-3A69-859C-0DA0-9F77F2FF9DCA" name="T_CLI_ALERGIA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Alergia: São condições de pacientes que podem ocorrer. Devemos armazenar o tipo de alergia (medicamentosa, alimentar, dermatologica) e a descricao da alergia
+
+]]></commentInRDBMS>
+<generatorID>4B5C837B-64DD-6C20-74A2-357B3F23F307</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alergia" id="EBD02ACC-03C1-DBEF-AE5D-C1CC92ED3EBA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero gerado artificialmente para ser primary key da alergia]]></commentInRDBMS>
+<generatorID>116066E1-7CE8-BF22-2A0D-E4895E2440C9</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_alergia" id="4F0FC3BF-5BF9-EFAF-6AC1-EF4D633C47D7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descricao da alergia]]></commentInRDBMS>
+<generatorID>2864D77F-FCED-FC1D-6CBD-7231AC102CCC</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_alergia" id="DF3C1638-AD29-E25E-A198-85C353D718C6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo da alergia: medicamentosa, de pele, alimento]]></commentInRDBMS>
+<generatorID>96B5AD26-DB54-1565-10BE-094958DF7AE1</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A286E3E-A284-9C36-296D-88CA92657B38" name="T_CLI_ALERGIA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>46C0D94E-7CAF-D502-1BCA-6D1A77742F53</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBD02ACC-03C1-DBEF-AE5D-C1CC92ED3EBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

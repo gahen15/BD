@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FB29E3D-7306-933F-E48F-A3D23E0C8388" name="T_CLI_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Consulta: é um agendamento que ocorre para que o paciente e o médico se encontrem
+
+
+
+
+]]></commentInRDBMS>
+<generatorID>1CAFDEE9-C386-5339-C9FE-6FF0E83EC339</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_consulta" id="F136B8D1-EE35-F86A-8146-3ED5F20B2F09">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifcador gerado artificialmente para identificar uma consulta]]></commentInRDBMS>
+<generatorID>A70E5119-3AC2-E6F4-9F74-229ADA2AF2B4</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_CRM" id="CFB7CFF6-3091-309C-9B14-0F00E8051DEE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>FA5F1B09-FA9C-87B7-FF0E-5D1A628D33A8</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1D3C781-A1CE-5A2A-1D5D-552B3BB4BA69" referredColumn="DEFE8ACC-7647-A6D5-C21C-46F26E2FBD63"/>
+</associations>
+</Column>
+<Column name="nr_CPF_paciente" id="DB6C3A37-5069-3572-B09F-27D57BBC27EE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>C71861F7-FF64-837D-215C-618F8598338B</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C898BEB9-67F6-BC41-26F1-2CF415BAC010" referredColumn="40E32ACB-4CEE-0ADF-03D6-4E740542A8F8"/>
+</associations>
+</Column>
+<Column name="dt_hr_consulta" id="3F627280-54FE-499B-FF82-FAC6C846A8E5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da consulta]]></commentInRDBMS>
+<generatorID>FBC06695-9496-D639-57B6-AE2B535F17C2</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_consulta" id="20CFE835-E3E3-3C98-F2D9-4FDF1E9B5335">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor pago pela consulta]]></commentInRDBMS>
+<generatorID>3E8D0AD2-2E10-3B62-1455-70452FBB9BC8</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F35F9FD-2973-7A2C-DE3C-DAE1F1A58BC7" name="T_CLI_CONSULTA_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>6790204A-6C57-C978-707B-E5146CB86CF4</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB7CFF6-3091-309C-9B14-0F00E8051DEE"/>
+<colUsage columnID="F136B8D1-EE35-F86A-8146-3ED5F20B2F09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D26C2286-7B2E-DC52-3F52-7E24DEAFC01B" name="FK_MEDICO_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>66CD5165-8825-AAAE-7F96-032CB8237B62</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB7CFF6-3091-309C-9B14-0F00E8051DEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DB79DB6-CFD7-EE31-148B-D34CCBFF2523" name="FK_PACIENTE_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>7A1D3716-4564-84F1-FD33-C88DE6639759</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB6C3A37-5069-3572-B09F-27D57BBC27EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PACIENTE_ALERGIAv1" directorySegmentName="seg_0" id="C3F5C79A-7A12-2079-A8BB-4FEB58D89CC3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-02 19:43:40 UTC</createdTime>
+<ownerDesignName>CLINICA</ownerDesignName>
+<engineerTo>
+<item key="ED6AC5D7-B25C-8A1E-65B4-7591B7983A6A" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>454F9E40-97C9-ACF5-D01D-1DE55A31CEF7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>99767D56-1B0A-BAE2-71C5-2000D5F36957</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

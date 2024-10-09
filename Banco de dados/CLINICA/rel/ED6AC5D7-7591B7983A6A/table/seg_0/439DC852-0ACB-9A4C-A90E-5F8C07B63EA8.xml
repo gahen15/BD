@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="439DC852-0ACB-9A4C-A90E-5F8C07B63EA8" name="T_CLI_MEDICO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Médicos: São profissionais formados da área de sáude que atendem os pacientes.. Precisamos do CRM do médico, nome, endereço, telefone, especialidade, valor de salario.
+
+
+
+
+
+]]></commentInRDBMS>
+<generatorID>7E94558B-8624-8365-00C0-2AE2C5818C64</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_CRM" id="DEFE8ACC-7647-A6D5-C21C-46F26E2FBD63">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo do CRM do MEDICO no formato CRMnnnnnn/ES (ESTADO: SP, RJ, MS)]]></commentInRDBMS>
+<generatorID>16581224-403A-8066-7132-D5448845E95F</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_especialidade" id="74C7EA20-96DE-1F0C-F1D5-6787ACAFFB5A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>100F5333-EA4A-E709-FAD4-B4D1FD757CA0</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CB86C0D-C013-1BE4-E704-F7E166392164" referredColumn="891120B1-B8C9-DB6A-ECB8-BAC86E7CDF4F"/>
+</associations>
+</Column>
+<Column name="nm_medico" id="342B54E1-2A81-E138-4FB0-6120EC9BED32">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do medico]]></commentInRDBMS>
+<generatorID>EC991ED8-4C28-32BC-4D83-533DAF888423</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco_medico" id="22310BC2-1175-CAD0-11B1-EA2F1CC86442">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Endereco do Medico]]></commentInRDBMS>
+<generatorID>E4B99F2D-7AD0-98C2-44CF-2FB8B79D8A0B</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone_medico" id="6C7CBC3B-D4F0-B595-BD05-A91AF02E2A12">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Numero do telefone do medico]]></commentInRDBMS>
+<generatorID>D6505D15-776A-14E7-7873-332E65DF5949</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="8BDCC7F1-A63A-7D80-9742-A11AABB9AE6A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor atual do salario do medico]]></commentInRDBMS>
+<generatorID>9F43A4ED-D4B4-F656-D6E4-6824ACF47618</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBBFC556-69B0-4F09-D28F-A2712CA88737" name="T_CLI_MEDICO_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>A53C7B5B-3669-CA4A-834C-F15743B11245</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEFE8ACC-7647-A6D5-C21C-46F26E2FBD63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE5CD571-5A41-5CAB-CB3D-C74FDCC74AD3" name="FK_ESPEC_MEDICO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-10-03 17:35:17 UTC</createdTime>
+<generatorID>001B8DC3-0C77-98DC-B021-83FF07A87840</generatorID>
+<ownerDesignName>CLINICA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C7EA20-96DE-1F0C-F1D5-6787ACAFFB5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
