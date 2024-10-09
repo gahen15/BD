@@ -1,0 +1,1 @@
+Select f.nm_funcionario, f.dt_nascimento_funcionario, d.nm_dependente, d.dt_nascimento_dependente, d.ds_grau_parentesco from t_funcionario f inner join t_dependente d on f.nr_matricula = d.nr_matricula;
