@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="92400984-0D5D-C29B-63F6-E8F4EA64B2EF" name="ALERGIA  " seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="7F894BD6-962A-32F0-5C0E-259B0F213535" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="2F5D7401-7A3D-B9D0-66C8-18844A376B3C" name="CONSULTA    " seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="7F894BD6-962A-32F0-5C0E-259B0F213535" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="5CAB732C-5A4C-055F-12FE-DC4A2FE36C91" name="ESPECIALIDADE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="7F894BD6-962A-32F0-5C0E-259B0F213535" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="8465C549-287E-C654-E123-D57440162F1B" name="MÉDICO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="7F894BD6-962A-32F0-5C0E-259B0F213535" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Entity" objectID="92DB1530-7D77-C1A0-AE41-202FD6016852" name="PACIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="7F894BD6-962A-32F0-5C0E-259B0F213535" propertySourceId="" propertyTargetId=""/>
-</oracle.dbtools.crest.model.design.logical.LogicalDesign>
